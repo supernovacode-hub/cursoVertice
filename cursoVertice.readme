@@ -8,7 +8,7 @@ alert("¡Bienvenido a nuestra web!");
 </head>
 <body> </body>
 </html>
-_________________________________________________
+ _______________________________________
 
 TABLAS 
 
@@ -20,4 +20,8 @@ TABLAS
 <td rowspan="2"(Estira una celda para que pase a ocupar el espacio de dos celdas verticalmente)>Celda 3</td> <td>Celda4</td>
  </tr>
 </table>
-_________________________________
+  __________________________________________________
+    
+VÍDEOS/MAPA GOOGLE
+<iframe width="__" height="__" src="insertar el enlace del vídeo" title="Vídeo de ejemplo" frameborder="0" allowfullscreen> </iframe> 
+<iframe width= "" height="" src="insertar code embebed"></iframe>
