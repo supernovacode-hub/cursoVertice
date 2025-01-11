@@ -1,0 +1,50 @@
+
+body {
+    background-color: rgb(253, 254, 255);
+    color:black;
+    margin-right: 40px;
+    margin-left:40px;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom:20px;
+    margin-top: 20px;
+    color:rgb(59, 164, 163)
+}
+p {
+    text-align: center;
+    font-size: 14px;
+}
+h2 {
+    color:rgb(38, 104, 104); 
+    margin-bottom:20px;
+    margin-top: 20px; 
+    text-align:center;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    color:rgb(61, 83, 83);
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+h4 {
+    text-align:center;
+}
+.literatura{
+    text-align: center;
+    margin-top: 20px;
+}
+ul{
+    font-size:14px;
+    margin-top:6px;
+    margin-bottom: 20px;
+    text-align: center;
+    list-style: none; 
+}
+
+footer{
+    color: black;
+}
+

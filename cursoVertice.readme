@@ -25,3 +25,27 @@ TABLAS
 VÍDEOS/MAPA GOOGLE
 <iframe width="__" height="__" src="insertar el enlace del vídeo" title="Vídeo de ejemplo" frameborder="0" allowfullscreen> </iframe> 
 <iframe width= "" height="" src="insertar code embebed"></iframe>
+_______________________________________
+CAMBIOS DE COLOR cuando para el ratón
+<style>
+a:hover {
+    @-webkit-keyframes cambiaColor{
+        from {background-color: blue;}
+        to {background-color:red;}
+    }
+} </style>
+_______________________________________
+ENVIAR EMAILS
+<a href= "mailto:(dirección de correo)?cc=otradir@correo.es&subject="saludos">Escríbeme</a>
+Cada vez que queramos añadir un campo ponermos usamos ampersand (&)
+_______________________________________
+ATRIBUTO TARGET
+Se usa dentro de <a></a> y sirve para indicar si el enlace se abre en otra ventana o en la misma. Opciones:
+_blank --> Otra ventana
+_parent --> el enlace se abre en el mismo frameset que su padre. 
+_self --> en la misma ventana del documento donde tenemos el enlace (por defecto).
+_top --> fuerza a que el enlace sea mostrado usando todo el espacio de la ventana.
+_______________________________________
+
+
+
