@@ -1,0 +1,23 @@
+<html>
+<head>
+<title> Inserción de un script </title>
+<script language="Javascript">
+//Visualizar un mensaje de bienvenida
+alert("¡Bienvenido a nuestra web!"); 
+</script>
+</head>
+<body> </body>
+</html>
+_________________________________________________
+
+TABLAS 
+
+<table>
+<tr> <th>Canción</th> (título de la columna)
+<td colspan="2"(Se expande sobre dos columnas y ocupará el espacio de dos celdas horizontalmente)>Celda1</td> <td>Celda2</td>
+</tr>
+<tr>
+<td rowspan="2"(Estira una celda para que pase a ocupar el espacio de dos celdas verticalmente)>Celda 3</td> <td>Celda4</td>
+ </tr>
+</table>
+_________________________________
