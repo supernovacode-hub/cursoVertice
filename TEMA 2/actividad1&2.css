@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f6f8f7;
+  }
+  #enlaces_internos {
+    list-style: none;
+    color:black;
+    text-decoration:none;
+  }
+  #enlaces_externos {
+    list-style: none;
+    color:black;
+    text-decoration:none; 
+  }
+  #enlaces_internos, #enlaces_externos {
+    font-size: 15px;
+    font-style: bold;
+  }
+  h1{
+    color: rgb(161, 21, 21);
+  }
+  
+  h2 {
+    color: #59795f;
+    margin-bottom: 10px;
+  }
+  img{
+    margin:50px;
+  }
+  ul {
+    margin-left: 20px;
+    color:rgbrgba(146, 17, 17, 0.59);
+  }
+  
+  ol {
+    margin-left: 10px;
+    color:rgba(146, 17, 17, 0.59);
+  }
+  
+  li {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: rgba(146, 17, 17, 0.59);
+  }
+  
+  ul ul {
+    margin-left: 20px;
+    color:rgba(135, 63, 63, 0.59);
+    font-size: 12px;
+  }
+  footer{
+    color: green;
+    font-weight: bold;
+  }
