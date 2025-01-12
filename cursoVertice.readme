@@ -46,6 +46,17 @@ _parent --> el enlace se abre en el mismo frameset que su padre.
 _self --> en la misma ventana del documento donde tenemos el enlace (por defecto).
 _top --> fuerza a que el enlace sea mostrado usando todo el espacio de la ventana.
 _______________________________________
+CARGAR IMÁGENES BAJA CALIDAD    
+lowsrc = "enlace de la imágen/ruta en el pc"
+_______________________________________
+AUDIO & VIDEO & AUDIO
+<audio controls> 
+<source src="audio.pm3" type="audio/mpeg"> </source>
+</audio >
 
+<video width="" height="" controls> 
+<source src="video/mp4" type="video/mp4"
+</video>
+<a href="ruta del video">Mira el vídeo(1.3MB)</a> --> vídeo para clickar y ver.
 
-
+<a href="audio/song.mp3">Canción</a>
