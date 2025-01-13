@@ -49,7 +49,31 @@ body {
     color:rgba(135, 63, 63, 0.59);
     font-size: 12px;
   }
+  #img1{
+    float: left;
+    height:200px;
+    width:200px;
+    margin-top: 5px;
+    margin-bottom:10px;
+  }
+  #img2{
+    display: block;
+    margin: 0 auto;
+    height:450px;
+    width:620px;
+    margin-bottom:30px;
+  }
+  #img3{
+    float: right;
+    height:200px;
+    width:200px;
+  }
+  #img_final{
+    display: block;
+    margin: 0 auto;
+  }
   footer{
     color: green;
     font-weight: bold;
+    text-align: right;
   }
