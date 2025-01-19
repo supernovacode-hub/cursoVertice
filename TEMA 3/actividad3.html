@@ -4,37 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementos naturales</title>
-    <link rel="stylesheet" href="actividad1_4.css">
+    <link rel="stylesheet" href="actividad3.css">
 </head>
 <body>
     <h1>Actividad 2</h1>
-    <ul id="enlaces_internos" role="navigation"> Navbar 
+    <h3 class="enlaces">Navbar</h3>
+    <ul id="enlaces_internos" role="navigation"> 
             <li><a href="#intro" aria-label="Ir a la sección de elementos naturales">Elementos naturales</a></li>
             <li><a href="#observacion" aria-label="Ir a la sección pasos para observar animales en un parque">Observación</a></li>
             <li><a href="#clasificacion" aria-label="Ir a la sección clasificación de animales en un parque">Clasificación</a></li>
             <li><a href="#ejemplo">Ejemplo</a></li>
     </ul>
-    <ul id="enlaces_externos"> Parques naturales del mundo 
-            <li><a href="https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/" target="_blank">Parques locales</a></li>
-            <li><a href="https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales.html" tarjet="_blank">Parques nacionales</a></li>
-            <li><a href="https://www.fundacionaquae.org/wiki/parques-naturales-mundo/" tarjet="_blank">Parques internacionales</a></li>
+    <h3 class="enlaces">Parques del mundo</h3>
+    <ul id="enlaces_externos">
+        <li><a href="https://medioambiente.malaga.eu/parques-y-jardines/parques-y-jardines-de-malaga/" target="_blank">Parques locales</a></li>
+        <li><a href="https://www.miteco.gob.es/es/parques-nacionales-oapn/red-parques-nacionales/parques-nacionales.html" tarjet="_blank">Parques nacionales</a></li>
+        <li><a href="https://www.fundacionaquae.org/wiki/parques-naturales-mundo/" tarjet="_blank">Parques internacionales</a></li>
     </ul>
-    <video aria-label role="video" src="video & sonidos/imprescindibles---10-parques-nacionales-de-españa.mp4" poster="images/introvideo2.PNG" controls>
+    <video src="video & sonidos/imprescindibles---10-parques-nacionales-de-españa.mp4" poster="images/introvideo2.PNG" controls>
       <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="español"></track>
       Tu navegador no soporta la reproducción de vídeos.
     <!--Los subtítulos mejoran la accesibilidad y mejoran la inmersión del usuario.-->
     </video> <br>
     <p>Dale click y podrás escuchar sonidos de pájaros en la naturaleza.</p>
-    <audio aria-label role="audio" src="video & sonidos/birds.mp3" controls > Tu navegador no soporta la reproducción de audios.</audio>
+    <audio src="video & sonidos/birds.mp3" controls > Tu navegador no soporta la reproducción de audios.</audio>
    
     <h2 id="intro">Elementos naturales en un parque:</h2>
-    <img aria-describedby role="img" id="img1" src="https://www.naturalizaeducacion.org/wp-content/uploads/2019/03/Naturaliza-parques-naturales-espana.jpg" alt="parque natural desde el aire">
+    <img id="img1" src="https://www.naturalizaeducacion.org/wp-content/uploads/2019/03/Naturaliza-parques-naturales-espana.jpg" alt="parque natural desde el aire">
       <ul>
-            <li>Árboles</li>
-            <li>Flores</li>
-            <li>Aves</li>
-            <li>Insectos</li>
-            <li>Arbustos</li>
+        <li>Árboles</li>
+        <li>Flores</li>
+        <li>Aves</li>
+        <li>Insectos</li>
+        <li>Arbustos</li>
     </ul> <br><br><br><br><br>
     <h2 id="observacion">Pasos para observar animales en un parque:</h2>
     <ol>
@@ -45,10 +47,10 @@
         <li>Tomar notas o fotos</li>
     </ol>
 <!-- He puesto una etiqueta "id" a cada imagen para que me sea más fácil posicionarlas en la página.-->
-    <img aria-describedby role="img" id="img2" src="https://naturaliste.es/wp-content/uploads/2019/12/observaci%C3%B3n-de-animales.jpg" alt="personas observaciondo animales"> 
+    <img id="img2" src="https://naturaliste.es/wp-content/uploads/2019/12/observaci%C3%B3n-de-animales.jpg" alt="personas observaciondo animales"> 
       
     <h2 id="clasificacion">Clasificación de animales en un parque:</h2> 
-    <img role="img" aria-describedby id="img3" src="https://www.colectivia.com/blog/wp-content/uploads/2021/07/cabarceno_animales-1.jpg" alt="animales clasificados"> 
+    <img id="img3" src="https://www.colectivia.com/blog/wp-content/uploads/2021/07/cabarceno_animales-1.jpg" alt="animales clasificados"> 
     <ul>
       <li>Animales
         <ul>
@@ -71,7 +73,7 @@
       </ul>
     </ul>
     <h2 id="ejemplo">
-        <img aria-describedby role="img" id="img_final" src="images/chorro_img.jpg" usemap="#mapa_parque" alt="imagen garganta del chorro">
+        <img id="img_final" src="images/chorro_img.jpg" usemap="#mapa_parque" alt="imagen garganta del chorro">
         <map name="mapa_parque">
             <area shape="rect" coords="299,239,575,180" href="https://lagarganta.com/el-caminito-del-rey/" alt="puente integrado en ruta"></area>
             <area shape="rect" coords="277,389,342,422" href="https://lagarganta.com/pantano-el-chorro-embalse-conde-del-guadalhorce/" alt="parte del pantano del Chorro"></area>
@@ -86,4 +88,8 @@
         <p><i>Autora: Aisa Moreno Molina</i></p> 
     </footer>
 </body>
+<!--Actividad 3
+1. Los valores de [role] no son válidos por lo tanto los he eliminado del código.
+2. Los usos de <aria> son imcompatibles con los elementos por lo tanto los he eliminado también del código.
+3. Las áreas táctiles no tienen un tamaño o un espaciado suficientes. Por lo tanto he aumentado el margen entre todos de 5px a 20px en la hoja de CSS.-->
 </html>

@@ -16,9 +16,7 @@ body {
   #enlaces_internos, #enlaces_externos {
     font-size: 15px;
     font-style: bold;
-    margin-bottom: 20px 0px;
   }
-
   h1{
     color: rgb(161, 21, 21);
   }
@@ -30,8 +28,11 @@ body {
   img{
     margin:50px;
   }
+  .enlaces{
+    margin-left:30px;
+  }
   ul {
-    margin-left: 20px;
+    margin-left: 10px;
     color:rgbrgba(146, 17, 17, 0.59);
   }
   
@@ -41,14 +42,13 @@ body {
   }
   
   li {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 20px;/*cambio de 5px a 20px*/
     font-size: 12px;
     color: rgba(146, 17, 17, 0.59);
   }
   
   ul ul {
-    margin-left: 20px;
+    margin-left: 20px;/*cambio de 5px a 20px*/
     color:rgba(135, 63, 63, 0.59);
     font-size: 12px;
   }
