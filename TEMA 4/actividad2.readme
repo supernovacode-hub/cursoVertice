@@ -1,0 +1,81 @@
+Parque Natural El Chorro 🌿
+/* La página web está estructurada en varias secciones principales:
+
+Navbar (Barra de Navegación):
+
+Permite a los usuarios navegar entre las secciones: Inicio, Historia, Actividades y Conoce El Chorro.
+Sección "Bienvenidos":
+
+Un encabezado principal que da la bienvenida al visitante al sitio.
+Historia:
+
+Información sobre la historia de la estación de El Chorro y su conexión con el Caminito del Rey.
+Imagen descriptiva de la estación de tren.
+Actividades:
+
+Detalles de actividades disponibles en el parque, como:
+Vía Ferrata El Chorro
+Caminito del Rey
+Rutas en bici eléctrica
+Escalada
+Cada actividad incluye una breve descripción y una imagen.
+Conoce El Chorro:
+
+Información sobre el Caminito del Rey y su importancia histórica y cultural.
+Un vídeo explicativo sobre la ruta.
+Footer (Pie de Página):
+
+Información de contacto: teléfono, email y WhatsApp.
+Derechos reservados.
+Tecnologías
+HTML5: Para estructurar el contenido de la página.
+CSS3: (Enlazado desde actividad2.css) Para diseñar y estilizar la página.
+Cómo Usar
+Descarga o clona este repositorio:
+git clone https://github.com/tu-repositorio/parque-natural-el-chorro.git
+
+Abre el archivo HTML en tu navegador:
+
+Navega al archivo actividad2.html y haz doble clic para abrirlo en un navegador.
+
+- Contenido CSS - 
+
+El proyecto incluye:
+
+- Navbar lateral fijo:
+
+Posicionado a la izquierda de la pantalla.
+Contiene enlaces a las secciones principales de la página.
+Estilizado con un diseño sencillo y funcional.
+
+Sección principal:
+
+- Historia 
+Breve introducción sobre la importancia histórica de El Chorro.
+- Actividades
+Descripciones de actividades populares como escalada, rutas en bicicleta y el famoso Caminito del Rey.
+- Conoce El Chorro: 
+Vídeo y detalles adicionales sobre el parque.
+
+Footer:
+Información de contacto.
+Derechos reservados.
+
+Aquí se destacan los estilos más relevantes:
+
+- Navbar lateral fijo (.navbar-left):
+Posicionado a la izquierda con position: fixed.
+Incluye un color de fondo y efecto hover en los enlaces.
+
+- Encabezado (header):
+Fondo de color marrón con texto centrado.
+Altura ajustada para mantener una apariencia uniforme.
+Secciones (section):
+Márgenes generosos para una mejor legibilidad.
+Imágenes centradas con tamaño fijo de 500x500 px.
+
+- Footer:
+Estilo oscuro con texto blanco.
+Centrado y fijo en la parte inferior de la página.
+
+-Accesibilidad: 100% 
