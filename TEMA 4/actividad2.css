@@ -1,6 +1,12 @@
-
+*{ /*Sugerencia de corrección*/
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
 body { 
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif; /*sugerencia de corrección*/
     margin-left: 150px; 
     padding: 0; 
     background-color: #f4f4f4;
@@ -19,9 +25,9 @@ header h1 {
 .navbar-left { 
     position: fixed; 
     left: 0; top: 0; 
-    width: 100px; /* Ajusta el ancho según tus necesidades */ 
+    width: 100px; 
     height: 100%; 
-    background-color: #afa085; /* Color de fondo del navbar */ 
+    background-color: #afa085; 
     padding: 20px; 
     box-shadow: 2px 0 5px rgba(0,0,0,0.1); 
     font-weight: bold;
